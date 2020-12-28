@@ -1,0 +1,27 @@
+@import "../style/variables.scss";
+@import "../style/mixin.scss";
+
+.works--block {
+  @include block-style;
+  padding: 40px;
+  text-align: left;
+
+  ul {
+    li {
+      padding: 5px 0 20px;
+      font-weight: 700;
+    }
+  }
+
+  .description {
+    list-style-type: none;
+    li {
+      font-weight: 400;
+      &:before {
+        content: "▶";
+        position: relative;
+        left: -5px;
+      }
+    }
+  }
+}

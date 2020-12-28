@@ -1,0 +1,16 @@
+@import "../style/variables.scss";
+
+.App-header {
+  .nav {
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    a {
+      font-size: 14px;
+      text-decoration: none;
+      color: $colorLight;
+      cursor: pointer;
+      padding: 0 10px;
+    }
+  }
+}

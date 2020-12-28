@@ -1,0 +1,14 @@
+@import "../style/variables.scss";
+@import "../style/mixin.scss";
+
+.education--block {
+  @include block-style;
+    justify-content: center;
+    span {
+        padding: 10px 0;
+    }
+
+    span:first-child {
+        font-weight: 700;
+    }
+}

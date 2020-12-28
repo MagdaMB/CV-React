@@ -1,0 +1,18 @@
+@import "../style/variables.scss";
+@import "../style/mixin.scss";
+
+.course--block {
+  @include block-style;
+  text-align: left;
+  ul {
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    li {
+      padding: 10px 0;
+      span {
+        font-weight: 700;
+      }
+    }
+  }
+}

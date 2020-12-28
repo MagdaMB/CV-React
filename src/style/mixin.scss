@@ -1,0 +1,15 @@
+@mixin block-style {
+  background: #dad0c8;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+  color: $colorBlack;
+  z-index: 100;
+  @media all and (max-width: 768px) {
+    flex-direction: column;
+    min-height: 300px;
+    width: 100%;
+  }
+}
